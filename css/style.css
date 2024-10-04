@@ -1,0 +1,170 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 500px;
+    text-align: center;
+}
+
+header{
+    background-color: #000000;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+header img{
+    width: 170px;
+    height: 50px;
+}
+main{
+    background-color:#FFFFFF
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style:inherit;
+  font-size: 3rem;
+  color:#1A94A1;
+  padding-top: 10%;
+  padding-bottom: 5%;
+
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style:inherit;
+  font-size: 2rem;
+  color:#FFFFFF;
+  padding-top: 10%;
+  padding-bottom: 5%;
+
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color:#1A94A1;
+
+}
+h5 , h6 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 600px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: #FFFFFF;
+  margin:  2%;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 600px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+  line-height: 1.6;
+  margin:  5%;
+
+}
+
+.first {
+    background-image: url(../images/banner.jpg);
+}
+.first button{
+    background-color: #FE4523;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 6%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+.first button:hover{
+    background-color: #981d08;
+
+}
+
+.second{
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.second p{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+.second img{
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+   margin-bottom: 10%;
+}
+
+.third {
+    background-color: #F13E03;
+
+}
+
+.third p{
+  color: #FFFFFF;
+}
+
+.fourth img {
+width: 80%;
+height: 80%;
+margin-top: 10%;
+margin-bottom: 10%
+;} 
+
+.sub {
+    border: 2px solid gray;
+    padding: 1px;
+   margin-top: 5%;;
+}
+
+.sub p {
+    margin: 0;
+    font-size: 1rem; /* Font size inside the box */
+}
+
+footer{font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 600px;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    background-color: #2A9CC4;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+ul{
+    color: #FFFFFF;
+}
+hr{
+    max-width: 200px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
